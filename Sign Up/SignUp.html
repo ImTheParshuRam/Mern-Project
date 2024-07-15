@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="SignUpStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap" rel="stylesheet">
+
+<script src="SignUpIndex.js"></script>
+</head>
+<body>
+     <div class="container">
+        <div class="content-head">
+            <div class="logo"><img src="icon1.svg" alt="Dining" class="icon1"></div>
+            <div><h1>Welcome to Our Recipe Sharing Platform</h1></div>
+        </div>
+        
+        <form action="/" method="post">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Full Name" required>
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" placeholder="Enter Date of Birth" required>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Phone Number " required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+            </div>
+            <br>
+            <div>
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="confirm_password" placeholder="Enter Password" required>
+            </div><br>
+            <p id="info">By signing up , you agree to our Terms and Privacy Policy.</p>
+            
+            <div class="final">
+                    <input type="submit" value="Submit">
+            </div>
+        </form>
+     </div>
+</body>
+</html> 
